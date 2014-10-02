@@ -19,6 +19,7 @@
 @property (strong, nonatomic) IBOutlet UILabel *labelEight;
 @property (strong, nonatomic) IBOutlet UILabel *labelNine;
 @property (strong, nonatomic) IBOutlet UILabel *whichPlayerLabel;
+@property CGPoint originalCenter;
 @end
 
 @implementation ViewController
@@ -29,7 +30,27 @@
 }
 
 - (IBAction)onLabelTapped:(UITapGestureRecognizer *)tapGesture {
-
+    CGPoint point = [tapGesture locationInView:self.view];
+    NSLog(@"X location: %f", point.x);
+    NSLog(@"Y Location: %f",point.y);
+    [tapGesture setNumberOfTapsRequired:1];
+    [self.view addGestureRecognizer:tapGesture];
+    
+    NSArray *labelsArray = [NSArray arrayWithObjects:self.labelOne, self.labelTwo, self.labelThree, self.labelFour, self.labelFive, self.labelSix, self.labelSeven, self.labelEight, self.labelNine, nil];
+    
+    for (int i = 0; i < labelsArray.count; i++) {
+        UILabel *label = labelsArray[i];
+        NSString *labelFrameString = NSStringFromCGRect(label.frame);
+        CGRect labelFrameRect = CGRectFromString(labelFrameString);
+        NSLog(@"%@",labelFrameString);
+        
+        if (CGRectContainsPoint(labelFrameRect, point)) {
+            UILabel *labelMark = labelsArray[i];
+            labelMark.backgroundColor = [UIColor redColor];
+            labelMark.text = @"X";
+        }
+    }
+    
 }
 
 - (void) findLabelUsingPoint:(CGPoint) point {
