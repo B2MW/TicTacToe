@@ -8,7 +8,8 @@
 
 #import "ViewController.h"
 
-@interface ViewController () <UIGestureRecognizerDelegate>
+@interface ViewController () <UIGestureRecognizerDelegate, UIAlertViewDelegate>
+
 @property (strong, nonatomic) IBOutlet UILabel *labelOne;
 @property (strong, nonatomic) IBOutlet UILabel *labelTwo;
 @property (strong, nonatomic) IBOutlet UILabel *labelThree;
@@ -18,9 +19,11 @@
 @property (strong, nonatomic) IBOutlet UILabel *labelSeven;
 @property (strong, nonatomic) IBOutlet UILabel *labelEight;
 @property (strong, nonatomic) IBOutlet UILabel *labelNine;
-
 @property (strong, nonatomic) IBOutlet UILabel *whichPlayerLabel;
-@property NSMutableArray *labelFrames;
+@property NSString *turnLetter;
+@property NSString *lastTurnLetter;
+@property UIColor *turnColor;
+@property int turnsLeft;
 
 @end
 
@@ -28,30 +31,87 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self.labelFrames addObject:[NSValue valueWithCGRect:self.labelOne.frame]];
-    [self.labelFrames addObject:[NSValue valueWithCGRect:self.labelTwo.frame]];
-    [self.labelFrames addObject:[NSValue valueWithCGRect:self.labelThree.frame]];
-    [self.labelFrames addObject:[NSValue valueWithCGRect:self.labelFour.frame]];
-    [self.labelFrames addObject:[NSValue valueWithCGRect:self.labelFive.frame]];
-    [self.labelFrames addObject:[NSValue valueWithCGRect:self.labelSix.frame]];
-    [self.labelFrames addObject:[NSValue valueWithCGRect:self.labelSeven.frame]];
-    [self.labelFrames addObject:[NSValue valueWithCGRect:self.labelEight.frame]];
-    [self.labelFrames addObject:[NSValue valueWithCGRect:self.labelNine.frame]];
+    self.turnsLeft = 9;
+    self.turnLetter = @"X";
+    self.turnColor = [UIColor redColor];
 }
 
 - (IBAction)onLabelTapped:(UITapGestureRecognizer *)tapGesture {
-    if (tapGesture.state == UIGestureRecognizerStateBegan) {
-        CGPoint point = [tapGesture locationInView:self.view];
+    CGPoint point = [tapGesture locationInView:self.view];
+
+    if ([self.whichPlayerLabel.text isEqualToString:@"Tap any sqaure to start"]) {
+        self.whichPlayerLabel.text = @"X's Turn";
+    }
+
+    if (([self findLabelUsingPoint:point] != nil) && (self.turnsLeft > 0)) {
+        [self findLabelUsingPoint:point].text = self.turnLetter;
+        [self findLabelUsingPoint:point].textColor = self.turnColor;
+        self.turnsLeft -= 1;
+    } else {
+    }
+    [self whoseTurn];
+    [self whoWon];
+}
+
+- (UILabel *)findLabelUsingPoint:(CGPoint) point {
+    if (CGRectContainsPoint(self.labelOne.frame, point)){
+        return self.labelOne;
+    } else if (CGRectContainsPoint(self.labelTwo.frame, point)) {
+        return self.labelTwo;
+    } else if (CGRectContainsPoint(self.labelThree.frame, point)) {
+        return self.labelThree;
+    } else if (CGRectContainsPoint(self.labelFour.frame, point)) {
+        return self.labelFour;
+    } else if (CGRectContainsPoint(self.labelFive.frame, point)) {
+        return self.labelFive;
+    }else if (CGRectContainsPoint(self.labelSix.frame, point)) {
+        return self.labelSix;
+    }else if (CGRectContainsPoint(self.labelSeven.frame, point)) {
+        return self.labelSeven;
+    }else if (CGRectContainsPoint(self.labelEight.frame, point)) {
+        return self.labelEight;
+    }else if (CGRectContainsPoint(self.labelNine.frame, point)) {
+        return self.labelNine;
+    } else return nil;
+}
+
+- (void) whoseTurn {
+    if (self.turnsLeft > 1) {
+        if ([self.whichPlayerLabel.text isEqualToString:@"X's Turn"]) {
+            self.whichPlayerLabel.text = @"O's Turn";
+            self.turnLetter = @"O";
+            self.lastTurnLetter = @"X";
+            self.turnColor = [UIColor blueColor];
+        } else if ([self.whichPlayerLabel.text isEqualToString:@"O's Turn"]) {
+            self.whichPlayerLabel.text = @"X's Turn";
+            self.turnLetter = @"X";
+            self.lastTurnLetter = @"O";
+            self.turnColor = [UIColor redColor];
+    }
     }
 }
 
-- (void) findLabelUsingPoint:(CGPoint) point {
-    for (int i = 0; i <= self.labelFrames.count; i++) {
-        CGRect *currentRect = (__bridge CGRect *)([self.labelFrames objectAtIndex:i]);
-        if (CGRectContainsPoint(*currentRect, point)) {
-            NSLog(@"Label and point intersect");
-        } else NSLog(@"Lable and point do NOT intersect");
+- (void) whoWon {
+    if (self.turnsLeft < 8) {
+    if (([self.labelOne.text isEqualToString:self.labelTwo.text]) && ([self.labelTwo.text isEqualToString:self.labelThree.text]) && ([self.labelOne.text isEqualToString:self.lastTurnLetter])) {
+        self.whichPlayerLabel.text = [self.lastTurnLetter stringByAppendingString:(@" wins!")];
+    } else if (([self.labelFour.text isEqualToString:self.labelFive.text]) && ([self.labelFive.text isEqualToString:self.labelSix.text]) && ([self.labelFour.text isEqualToString:self.lastTurnLetter])) {
+        self.whichPlayerLabel.text = [self.lastTurnLetter stringByAppendingString:(@" wins!")];
+    } else if (([self.labelSeven.text isEqualToString:self.labelEight.text]) && ([self.labelEight.text isEqualToString:self.labelNine.text]) && ([self.labelSeven.text isEqualToString:self.lastTurnLetter])) {
+        self.whichPlayerLabel.text = [self.lastTurnLetter stringByAppendingString:(@" wins!")];
+    } else if (([self.labelOne.text isEqualToString:self.labelFour.text]) && ([self.labelFour.text isEqualToString:self.labelSeven.text]) && ([self.labelOne.text isEqualToString:self.lastTurnLetter])) {
+        self.whichPlayerLabel.text = [self.lastTurnLetter stringByAppendingString:(@" wins!")];
+    } else if (([self.labelTwo.text isEqualToString:self.labelFive.text]) && ([self.labelFive.text isEqualToString:self.labelSix.text]) && ([self.labelTwo.text isEqualToString:self.lastTurnLetter])) {
+        self.whichPlayerLabel.text = [self.lastTurnLetter stringByAppendingString:(@" wins!")];
+    } else if (([self.labelFour.text isEqualToString:self.labelFive.text]) && ([self.labelFive.text isEqualToString:self.labelSix.text]) && ([self.labelFour.text isEqualToString:self.lastTurnLetter])) {
+        self.whichPlayerLabel.text = [self.lastTurnLetter stringByAppendingString:(@" wins!")];
+    } else if (([self.labelOne.text isEqualToString:self.labelFive.text]) && ([self.labelFive.text isEqualToString:self.labelNine.text]) && ([self.labelOne.text isEqualToString:self.lastTurnLetter])) {
+        self.whichPlayerLabel.text = [self.lastTurnLetter stringByAppendingString:(@" wins!")];
+    } else if (([self.labelThree.text isEqualToString:self.labelFive.text]) && ([self.labelFive.text isEqualToString:self.labelSeven.text]) && ([self.labelThree.text isEqualToString:self.lastTurnLetter])) {
+        self.whichPlayerLabel.text = [self.lastTurnLetter stringByAppendingString:(@" wins!")];
     }
 }
+}
+
 
 @end
