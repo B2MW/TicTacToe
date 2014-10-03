@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>TicTacToe.xcscheme</key>
+		<key>TicTactoe.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4C6F700F19DDF8E500FE03FA</key>
+		<key>66CB5AA019DE1A6900D520CB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4C6F702819DDF8E500FE03FA</key>
+		<key>66CB5AB919DE1A6900D520CB</key>
 		<dict>
 			<key>primary</key>
 			<true/>

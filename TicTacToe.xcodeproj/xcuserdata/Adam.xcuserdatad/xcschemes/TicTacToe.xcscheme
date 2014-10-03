@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4C6F700F19DDF8E500FE03FA"
-               BuildableName = "TicTacToe.app"
-               BlueprintName = "TicTacToe"
+               BlueprintIdentifier = "66CB5AA019DE1A6900D520CB"
+               BuildableName = "TicTacToe.temp_caseinsensitive_rename.app"
+               BlueprintName = "TicTacToe.temp_caseinsensitive_rename"
                ReferencedContainer = "container:TicTacToe.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,9 +28,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4C6F702819DDF8E500FE03FA"
-               BuildableName = "TicTacToeTests.xctest"
-               BlueprintName = "TicTacToeTests"
+               BlueprintIdentifier = "66CB5AB919DE1A6900D520CB"
+               BuildableName = "TicTacToe.temp_caseinsensitive_renameTests.xctest"
+               BlueprintName = "TicTacToe.temp_caseinsensitive_renameTests"
                ReferencedContainer = "container:TicTacToe.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,9 +46,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4C6F702819DDF8E500FE03FA"
-               BuildableName = "TicTacToeTests.xctest"
-               BlueprintName = "TicTacToeTests"
+               BlueprintIdentifier = "66CB5AB919DE1A6900D520CB"
+               BuildableName = "TicTacToe.temp_caseinsensitive_renameTests.xctest"
+               BlueprintName = "TicTacToe.temp_caseinsensitive_renameTests"
                ReferencedContainer = "container:TicTacToe.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -56,9 +56,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4C6F700F19DDF8E500FE03FA"
-            BuildableName = "TicTacToe.app"
-            BlueprintName = "TicTacToe"
+            BlueprintIdentifier = "66CB5AA019DE1A6900D520CB"
+            BuildableName = "TicTacToe.temp_caseinsensitive_rename.app"
+            BlueprintName = "TicTacToe.temp_caseinsensitive_rename"
             ReferencedContainer = "container:TicTacToe.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -75,9 +75,9 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4C6F700F19DDF8E500FE03FA"
-            BuildableName = "TicTacToe.app"
-            BlueprintName = "TicTacToe"
+            BlueprintIdentifier = "66CB5AA019DE1A6900D520CB"
+            BuildableName = "TicTacToe.temp_caseinsensitive_rename.app"
+            BlueprintName = "TicTacToe.temp_caseinsensitive_rename"
             ReferencedContainer = "container:TicTacToe.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -93,9 +93,9 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4C6F700F19DDF8E500FE03FA"
-            BuildableName = "TicTacToe.app"
-            BlueprintName = "TicTacToe"
+            BlueprintIdentifier = "66CB5AA019DE1A6900D520CB"
+            BuildableName = "TicTacToe.temp_caseinsensitive_rename.app"
+            BlueprintName = "TicTacToe.temp_caseinsensitive_rename"
             ReferencedContainer = "container:TicTacToe.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

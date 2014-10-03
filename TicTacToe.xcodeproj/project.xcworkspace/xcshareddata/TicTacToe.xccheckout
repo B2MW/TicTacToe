@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>3C7B1E86-E22E-4FBD-A855-106E11987C23</string>
+	<string>B36BF44C-8961-41D8-9903-61D7309A0658</string>
 	<key>IDESourceControlProjectName</key>
-	<string>TicTacToe</string>
+	<string>TicTactoe</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>6120DC57978F038C7428114A7FBA998127E8FB7E</key>
 		<string>https://github.com/B2MW/TicTacToe.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>TicTacToe.xcodeproj</string>
+	<string>TicTactoe.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>6120DC57978F038C7428114A7FBA998127E8FB7E</key>

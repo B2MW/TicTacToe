@@ -7,50 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4C6F701619DDF8E500FE03FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F701519DDF8E500FE03FA /* main.m */; };
-		4C6F701919DDF8E500FE03FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F701819DDF8E500FE03FA /* AppDelegate.m */; };
-		4C6F701C19DDF8E500FE03FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F701B19DDF8E500FE03FA /* ViewController.m */; };
-		4C6F701F19DDF8E500FE03FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C6F701D19DDF8E500FE03FA /* Main.storyboard */; };
-		4C6F702119DDF8E500FE03FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C6F702019DDF8E500FE03FA /* Images.xcassets */; };
-		4C6F702419DDF8E500FE03FA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C6F702219DDF8E500FE03FA /* LaunchScreen.xib */; };
-		4C6F703019DDF8E500FE03FA /* TicTacToeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F702F19DDF8E500FE03FA /* TicTacToeTests.m */; };
+		66CB5AA719DE1A6900D520CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CB5AA619DE1A6900D520CB /* main.m */; };
+		66CB5AAA19DE1A6900D520CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CB5AA919DE1A6900D520CB /* AppDelegate.m */; };
+		66CB5AAD19DE1A6900D520CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CB5AAC19DE1A6900D520CB /* ViewController.m */; };
+		66CB5AB019DE1A6900D520CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66CB5AAE19DE1A6900D520CB /* Main.storyboard */; };
+		66CB5AB219DE1A6900D520CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66CB5AB119DE1A6900D520CB /* Images.xcassets */; };
+		66CB5AB519DE1A6900D520CB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66CB5AB319DE1A6900D520CB /* LaunchScreen.xib */; };
+		66CB5AC119DE1A6900D520CB /* TicTactoeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CB5AC019DE1A6900D520CB /* TicTactoeTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4C6F702A19DDF8E500FE03FA /* PBXContainerItemProxy */ = {
+		66CB5ABB19DE1A6900D520CB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4C6F700819DDF8E500FE03FA /* Project object */;
+			containerPortal = 66CB5A9919DE1A6900D520CB /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4C6F700F19DDF8E500FE03FA;
-			remoteInfo = TicTacToe;
+			remoteGlobalIDString = 66CB5AA019DE1A6900D520CB;
+			remoteInfo = TicTactoe;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4C6F701019DDF8E500FE03FA /* TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C6F701419DDF8E500FE03FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4C6F701519DDF8E500FE03FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4C6F701719DDF8E500FE03FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4C6F701819DDF8E500FE03FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4C6F701A19DDF8E500FE03FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4C6F701B19DDF8E500FE03FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4C6F701E19DDF8E500FE03FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4C6F702019DDF8E500FE03FA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		4C6F702319DDF8E500FE03FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		4C6F702919DDF8E500FE03FA /* TicTacToeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C6F702E19DDF8E500FE03FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4C6F702F19DDF8E500FE03FA /* TicTacToeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicTacToeTests.m; sourceTree = "<group>"; };
+		66CB5AA119DE1A6900D520CB /* TicTacToe.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToe.temp_caseinsensitive_rename.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66CB5AA519DE1A6900D520CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66CB5AA619DE1A6900D520CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66CB5AA819DE1A6900D520CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		66CB5AA919DE1A6900D520CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		66CB5AAB19DE1A6900D520CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		66CB5AAC19DE1A6900D520CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		66CB5AAF19DE1A6900D520CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66CB5AB119DE1A6900D520CB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		66CB5AB419DE1A6900D520CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		66CB5ABA19DE1A6900D520CB /* TicTacToe.temp_caseinsensitive_renameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToe.temp_caseinsensitive_renameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66CB5ABF19DE1A6900D520CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66CB5AC019DE1A6900D520CB /* TicTactoeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicTactoeTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4C6F700D19DDF8E500FE03FA /* Frameworks */ = {
+		66CB5A9E19DE1A6900D520CB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4C6F702619DDF8E500FE03FA /* Frameworks */ = {
+		66CB5AB719DE1A6900D520CB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,61 +60,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4C6F700719DDF8E500FE03FA = {
+		66CB5A9819DE1A6900D520CB = {
 			isa = PBXGroup;
 			children = (
-				4C6F701219DDF8E500FE03FA /* TicTacToe */,
-				4C6F702C19DDF8E500FE03FA /* TicTacToeTests */,
-				4C6F701119DDF8E500FE03FA /* Products */,
+				66CB5AA319DE1A6900D520CB /* TicTactoe */,
+				66CB5ABD19DE1A6900D520CB /* TicTactoeTests */,
+				66CB5AA219DE1A6900D520CB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4C6F701119DDF8E500FE03FA /* Products */ = {
+		66CB5AA219DE1A6900D520CB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4C6F701019DDF8E500FE03FA /* TicTacToe.app */,
-				4C6F702919DDF8E500FE03FA /* TicTacToeTests.xctest */,
+				66CB5AA119DE1A6900D520CB /* TicTacToe.temp_caseinsensitive_rename.app */,
+				66CB5ABA19DE1A6900D520CB /* TicTacToe.temp_caseinsensitive_renameTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4C6F701219DDF8E500FE03FA /* TicTacToe */ = {
+		66CB5AA319DE1A6900D520CB /* TicTactoe */ = {
 			isa = PBXGroup;
 			children = (
-				4C6F701719DDF8E500FE03FA /* AppDelegate.h */,
-				4C6F701819DDF8E500FE03FA /* AppDelegate.m */,
-				4C6F701A19DDF8E500FE03FA /* ViewController.h */,
-				4C6F701B19DDF8E500FE03FA /* ViewController.m */,
-				4C6F701D19DDF8E500FE03FA /* Main.storyboard */,
-				4C6F702019DDF8E500FE03FA /* Images.xcassets */,
-				4C6F702219DDF8E500FE03FA /* LaunchScreen.xib */,
-				4C6F701319DDF8E500FE03FA /* Supporting Files */,
+				66CB5AA819DE1A6900D520CB /* AppDelegate.h */,
+				66CB5AA919DE1A6900D520CB /* AppDelegate.m */,
+				66CB5AAB19DE1A6900D520CB /* ViewController.h */,
+				66CB5AAC19DE1A6900D520CB /* ViewController.m */,
+				66CB5AAE19DE1A6900D520CB /* Main.storyboard */,
+				66CB5AB119DE1A6900D520CB /* Images.xcassets */,
+				66CB5AB319DE1A6900D520CB /* LaunchScreen.xib */,
+				66CB5AA419DE1A6900D520CB /* Supporting Files */,
 			);
-			path = TicTacToe;
+			path = TicTactoe;
 			sourceTree = "<group>";
 		};
-		4C6F701319DDF8E500FE03FA /* Supporting Files */ = {
+		66CB5AA419DE1A6900D520CB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4C6F701419DDF8E500FE03FA /* Info.plist */,
-				4C6F701519DDF8E500FE03FA /* main.m */,
+				66CB5AA519DE1A6900D520CB /* Info.plist */,
+				66CB5AA619DE1A6900D520CB /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		4C6F702C19DDF8E500FE03FA /* TicTacToeTests */ = {
+		66CB5ABD19DE1A6900D520CB /* TicTactoeTests */ = {
 			isa = PBXGroup;
 			children = (
-				4C6F702F19DDF8E500FE03FA /* TicTacToeTests.m */,
-				4C6F702D19DDF8E500FE03FA /* Supporting Files */,
+				66CB5AC019DE1A6900D520CB /* TicTactoeTests.m */,
+				66CB5ABE19DE1A6900D520CB /* Supporting Files */,
 			);
-			path = TicTacToeTests;
+			path = TicTactoeTests;
 			sourceTree = "<group>";
 		};
-		4C6F702D19DDF8E500FE03FA /* Supporting Files */ = {
+		66CB5ABE19DE1A6900D520CB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4C6F702E19DDF8E500FE03FA /* Info.plist */,
+				66CB5ABF19DE1A6900D520CB /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -122,60 +122,60 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4C6F700F19DDF8E500FE03FA /* TicTacToe */ = {
+		66CB5AA019DE1A6900D520CB /* TicTacToe.temp_caseinsensitive_rename */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4C6F703319DDF8E500FE03FA /* Build configuration list for PBXNativeTarget "TicTacToe" */;
+			buildConfigurationList = 66CB5AC419DE1A6900D520CB /* Build configuration list for PBXNativeTarget "TicTacToe.temp_caseinsensitive_rename" */;
 			buildPhases = (
-				4C6F700C19DDF8E500FE03FA /* Sources */,
-				4C6F700D19DDF8E500FE03FA /* Frameworks */,
-				4C6F700E19DDF8E500FE03FA /* Resources */,
+				66CB5A9D19DE1A6900D520CB /* Sources */,
+				66CB5A9E19DE1A6900D520CB /* Frameworks */,
+				66CB5A9F19DE1A6900D520CB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TicTacToe;
-			productName = TicTacToe;
-			productReference = 4C6F701019DDF8E500FE03FA /* TicTacToe.app */;
+			name = TicTacToe.temp_caseinsensitive_rename;
+			productName = TicTactoe;
+			productReference = 66CB5AA119DE1A6900D520CB /* TicTacToe.temp_caseinsensitive_rename.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4C6F702819DDF8E500FE03FA /* TicTacToeTests */ = {
+		66CB5AB919DE1A6900D520CB /* TicTacToe.temp_caseinsensitive_renameTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4C6F703619DDF8E500FE03FA /* Build configuration list for PBXNativeTarget "TicTacToeTests" */;
+			buildConfigurationList = 66CB5AC719DE1A6900D520CB /* Build configuration list for PBXNativeTarget "TicTacToe.temp_caseinsensitive_renameTests" */;
 			buildPhases = (
-				4C6F702519DDF8E500FE03FA /* Sources */,
-				4C6F702619DDF8E500FE03FA /* Frameworks */,
-				4C6F702719DDF8E500FE03FA /* Resources */,
+				66CB5AB619DE1A6900D520CB /* Sources */,
+				66CB5AB719DE1A6900D520CB /* Frameworks */,
+				66CB5AB819DE1A6900D520CB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4C6F702B19DDF8E500FE03FA /* PBXTargetDependency */,
+				66CB5ABC19DE1A6900D520CB /* PBXTargetDependency */,
 			);
-			name = TicTacToeTests;
-			productName = TicTacToeTests;
-			productReference = 4C6F702919DDF8E500FE03FA /* TicTacToeTests.xctest */;
+			name = TicTacToe.temp_caseinsensitive_renameTests;
+			productName = TicTactoeTests;
+			productReference = 66CB5ABA19DE1A6900D520CB /* TicTacToe.temp_caseinsensitive_renameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4C6F700819DDF8E500FE03FA /* Project object */ = {
+		66CB5A9919DE1A6900D520CB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0600;
-				ORGANIZATIONNAME = BlackSummerVentures;
+				ORGANIZATIONNAME = "Adam Cooper";
 				TargetAttributes = {
-					4C6F700F19DDF8E500FE03FA = {
+					66CB5AA019DE1A6900D520CB = {
 						CreatedOnToolsVersion = 6.0.1;
 					};
-					4C6F702819DDF8E500FE03FA = {
+					66CB5AB919DE1A6900D520CB = {
 						CreatedOnToolsVersion = 6.0.1;
-						TestTargetID = 4C6F700F19DDF8E500FE03FA;
+						TestTargetID = 66CB5AA019DE1A6900D520CB;
 					};
 				};
 			};
-			buildConfigurationList = 4C6F700B19DDF8E500FE03FA /* Build configuration list for PBXProject "TicTacToe" */;
+			buildConfigurationList = 66CB5A9C19DE1A6900D520CB /* Build configuration list for PBXProject "TicTacToe" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -183,29 +183,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 4C6F700719DDF8E500FE03FA;
-			productRefGroup = 4C6F701119DDF8E500FE03FA /* Products */;
+			mainGroup = 66CB5A9819DE1A6900D520CB;
+			productRefGroup = 66CB5AA219DE1A6900D520CB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4C6F700F19DDF8E500FE03FA /* TicTacToe */,
-				4C6F702819DDF8E500FE03FA /* TicTacToeTests */,
+				66CB5AA019DE1A6900D520CB /* TicTacToe.temp_caseinsensitive_rename */,
+				66CB5AB919DE1A6900D520CB /* TicTacToe.temp_caseinsensitive_renameTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4C6F700E19DDF8E500FE03FA /* Resources */ = {
+		66CB5A9F19DE1A6900D520CB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C6F701F19DDF8E500FE03FA /* Main.storyboard in Resources */,
-				4C6F702419DDF8E500FE03FA /* LaunchScreen.xib in Resources */,
-				4C6F702119DDF8E500FE03FA /* Images.xcassets in Resources */,
+				66CB5AB019DE1A6900D520CB /* Main.storyboard in Resources */,
+				66CB5AB519DE1A6900D520CB /* LaunchScreen.xib in Resources */,
+				66CB5AB219DE1A6900D520CB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4C6F702719DDF8E500FE03FA /* Resources */ = {
+		66CB5AB819DE1A6900D520CB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -215,47 +215,47 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4C6F700C19DDF8E500FE03FA /* Sources */ = {
+		66CB5A9D19DE1A6900D520CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C6F701C19DDF8E500FE03FA /* ViewController.m in Sources */,
-				4C6F701919DDF8E500FE03FA /* AppDelegate.m in Sources */,
-				4C6F701619DDF8E500FE03FA /* main.m in Sources */,
+				66CB5AAD19DE1A6900D520CB /* ViewController.m in Sources */,
+				66CB5AAA19DE1A6900D520CB /* AppDelegate.m in Sources */,
+				66CB5AA719DE1A6900D520CB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4C6F702519DDF8E500FE03FA /* Sources */ = {
+		66CB5AB619DE1A6900D520CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C6F703019DDF8E500FE03FA /* TicTacToeTests.m in Sources */,
+				66CB5AC119DE1A6900D520CB /* TicTactoeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4C6F702B19DDF8E500FE03FA /* PBXTargetDependency */ = {
+		66CB5ABC19DE1A6900D520CB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4C6F700F19DDF8E500FE03FA /* TicTacToe */;
-			targetProxy = 4C6F702A19DDF8E500FE03FA /* PBXContainerItemProxy */;
+			target = 66CB5AA019DE1A6900D520CB /* TicTacToe.temp_caseinsensitive_rename */;
+			targetProxy = 66CB5ABB19DE1A6900D520CB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4C6F701D19DDF8E500FE03FA /* Main.storyboard */ = {
+		66CB5AAE19DE1A6900D520CB /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4C6F701E19DDF8E500FE03FA /* Base */,
+				66CB5AAF19DE1A6900D520CB /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		4C6F702219DDF8E500FE03FA /* LaunchScreen.xib */ = {
+		66CB5AB319DE1A6900D520CB /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4C6F702319DDF8E500FE03FA /* Base */,
+				66CB5AB419DE1A6900D520CB /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -263,7 +263,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4C6F703119DDF8E500FE03FA /* Debug */ = {
+		66CB5AC219DE1A6900D520CB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -304,7 +304,7 @@
 			};
 			name = Debug;
 		};
-		4C6F703219DDF8E500FE03FA /* Release */ = {
+		66CB5AC319DE1A6900D520CB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -339,27 +339,27 @@
 			};
 			name = Release;
 		};
-		4C6F703419DDF8E500FE03FA /* Debug */ = {
+		66CB5AC519DE1A6900D520CB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TicTacToe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TicTacToe.temp_caseinsensitive_rename;
 			};
 			name = Debug;
 		};
-		4C6F703519DDF8E500FE03FA /* Release */ = {
+		66CB5AC619DE1A6900D520CB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TicTacToe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TicTacToe.temp_caseinsensitive_rename;
 			};
 			name = Release;
 		};
-		4C6F703719DDF8E500FE03FA /* Debug */ = {
+		66CB5AC819DE1A6900D520CB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -373,12 +373,12 @@
 				);
 				INFOPLIST_FILE = TicTacToeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TicTacToe.app/TicTacToe";
+				PRODUCT_NAME = TicTacToe.temp_caseinsensitive_renameTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TicTactoe.app/TicTactoe";
 			};
 			name = Debug;
 		};
-		4C6F703819DDF8E500FE03FA /* Release */ = {
+		66CB5AC919DE1A6900D520CB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -388,40 +388,42 @@
 				);
 				INFOPLIST_FILE = TicTacToeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TicTacToe.app/TicTacToe";
+				PRODUCT_NAME = TicTacToe.temp_caseinsensitive_renameTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TicTactoe.app/TicTactoe";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4C6F700B19DDF8E500FE03FA /* Build configuration list for PBXProject "TicTacToe" */ = {
+		66CB5A9C19DE1A6900D520CB /* Build configuration list for PBXProject "TicTacToe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4C6F703119DDF8E500FE03FA /* Debug */,
-				4C6F703219DDF8E500FE03FA /* Release */,
+				66CB5AC219DE1A6900D520CB /* Debug */,
+				66CB5AC319DE1A6900D520CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4C6F703319DDF8E500FE03FA /* Build configuration list for PBXNativeTarget "TicTacToe" */ = {
+		66CB5AC419DE1A6900D520CB /* Build configuration list for PBXNativeTarget "TicTacToe.temp_caseinsensitive_rename" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4C6F703419DDF8E500FE03FA /* Debug */,
-				4C6F703519DDF8E500FE03FA /* Release */,
+				66CB5AC519DE1A6900D520CB /* Debug */,
+				66CB5AC619DE1A6900D520CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		4C6F703619DDF8E500FE03FA /* Build configuration list for PBXNativeTarget "TicTacToeTests" */ = {
+		66CB5AC719DE1A6900D520CB /* Build configuration list for PBXNativeTarget "TicTacToe.temp_caseinsensitive_renameTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4C6F703719DDF8E500FE03FA /* Debug */,
-				4C6F703819DDF8E500FE03FA /* Release */,
+				66CB5AC819DE1A6900D520CB /* Debug */,
+				66CB5AC919DE1A6900D520CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4C6F700819DDF8E500FE03FA /* Project object */;
+	rootObject = 66CB5A9919DE1A6900D520CB /* Project object */;
 }
